@@ -13,7 +13,7 @@ loginlink.addEventListener('click', () => {
 });
 
 btnpopup.addEventListener('click', () => {
-    wrapper.classList.remove('active-popup');
+    wrapper.classList.add('active-popup');
 });
 
 iconclose.addEventListener('click', () => {
